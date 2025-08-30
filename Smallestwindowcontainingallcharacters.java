@@ -45,8 +45,6 @@ public class Smallestwindowcontainingallcharacters {
 
         return minLen == Integer.MAX_VALUE ? "" : s.substring(start, start + minLen);
     }
-
-    // ✅ Correct main method
     public static void main(String[] args) {
         String s = "timetopractice";
         String p = "toc";
